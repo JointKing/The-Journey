@@ -1,8 +1,8 @@
 /* Global Layout Set-up */
-* { 
+* {
   box-sizing: border-box;
 }
-  
+
 body {
   margin: 0;
   padding: 0;
@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #0499ff;
 }
 a:hover {
   color: #6633ff;
@@ -39,11 +39,8 @@ a:hover {
   margin: 0 auto;
   padding: 0;
 }
-
 .nav .name {
-    display: block;
-    margin-right: auto;
-    color: white;
+  display: none;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -74,19 +71,19 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(720deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: silver;
   color: black;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #043;
+  color: white;
 }
 .card {
   margin: 30px;
@@ -96,7 +93,6 @@ header .profile-image:hover {
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
-  transition: all .5s;
 }
 .card:hover {
   border-color: #ff99ff;
@@ -128,6 +124,7 @@ footer {
 
 footer .copyright {
   top: -8px;
+  margin-right: 20px;
   font-size: .75em;
 }
 
@@ -148,8 +145,8 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
-  transition: all .5s;
+  opacity: .5;
+  transition: all .25s;
 }
 a.twitter {
   background-image: url(images/twitter.svg);
@@ -169,28 +166,30 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
+      display: flex;
       max-width: 1200px;
-      -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
   }
 
   header {
-    min-height: 470px;
+    min-height: 450px;
   }
 
   .nav {
     max-width: 1200px;
-    padding: 0 30px;
   }
 
+  .nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+  }
 
   main {
-    padding-top: 20px;
+    padding-top: 50px;
   }
 
   main p {
@@ -205,3 +204,16 @@ a.social:hover {
 
 }
 
+h3 {
+    color: maroon;
+  letter-spacing: .5px;
+
+
+}
+.card-title {
+       text-align:center;
+       border: solid black 5px;
+       border-radius: 15px;
+
+
+}

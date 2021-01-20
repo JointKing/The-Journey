@@ -148,9 +148,7 @@ a.social {
   opacity: .5;
   transition: all .25s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }

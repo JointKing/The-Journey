@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial;
   color: #222;
   background: #f7f5f0;
 }
@@ -203,7 +203,7 @@ a.social:hover {
 }
 
 h3 {
-    color: maroon;
+    color: grey;
   letter-spacing: .5px;
 
 
@@ -212,6 +212,39 @@ h3 {
        text-align:center;
        border: solid black 5px;
        border-radius: 15px;
+
+
+}
+
+.main-image {
+  border: solid 5px black;
+  border-radius: 50%;
+} 
+
+h1 {
+  background-color: #e2e2e2;
+  padding: 5px;
+  text-align: center;
+
+}
+
+.section-title {
+            text-transform: uppercase;
+}
+h5 {
+margin-left: 25px;
+
+
+}
+
+h2 {
+margin-left: 20px;
+
+
+}
+
+h3 {
+margin-left: 20px;
 
 
 }

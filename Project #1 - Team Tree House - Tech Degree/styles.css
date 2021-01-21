@@ -75,8 +75,8 @@ header .profile-image:hover {
 }
 .tag {
   background-color: silver;
-  color: black;
-  padding: 10px;
+  color: rgb(44, 44, 42);
+  padding: 20px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
@@ -87,12 +87,12 @@ header .profile-image:hover {
 }
 .card {
   margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 600px;
+  padding: 40px 40px;
+  max-width: 550px;
   text-align: left;
   background: rgb(136, 141, 140);
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-bottom: 4px solid rgb(189, 160, 1);
+  border-radius: 60px;
   
 }
 .card:hover {
@@ -214,36 +214,33 @@ h3 {
        text-align: center;
        border: solid goldenrod 5px;
        border-radius: 15px;
-       
-       
-       
-
 
 }
 
 .main-image {
-  border: solid 5px green;
+  border: solid 5px rgba(229, 245, 10, 0.89);
   border-radius: 100%;
 } 
 
 .experience {
   text-align: left;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 header {
   text-align: left;
-  background: url('images/banner2.jpg') no-repeat top left ;
+  background: url('images/banner2.jpg') no-repeat top left;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 h1 {
-  background-color: #e2e2e2;
+  background-color: #faea085b;
   padding: 5px;
   text-align: left;
 
 }
+
 
 .section-title {
             text-transform: uppercase;
@@ -266,8 +263,7 @@ margin-left: 20px;
 }
 
 h4 {
-    margin-left: 20px;
-
+ margin-left: 20px;
 
 }
 
@@ -280,4 +276,10 @@ img {
 h1 {
   text-align: center;
 
+}
+
+header .main-image:hover {
+
+  transform: rotate(20deg);
+  
 }

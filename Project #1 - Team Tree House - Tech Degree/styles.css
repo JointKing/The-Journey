@@ -6,30 +6,30 @@
 body {
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: left;
   font-family: Arial;
   color: #222;
-  background: #f7f5f0;
+  background: #24242371;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #0499ff;
+  color: rgb(0, 0, 0);
 }
 a:hover {
-  color: #6633ff;
+  color: #09fa15;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: rgb(153, 155, 155);
   min-height: 30px;
   padding: 10px;
   position: fixed;
-  text-align: center;
+  text-align: left;
 }
 .nav {
   display: flex;
@@ -49,12 +49,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: rgb(0, 0, 0)
 }
 
 header {
-  text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  text-align: left;
+  background: url('images/banner2.jpg') no-repeat top left ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -67,7 +67,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid #a0ac00;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -82,25 +82,26 @@ header .profile-image:hover {
   margin: 10px auto;
 }
 .location {
-  background-color: #043;
-  color: white;
+  background-color: rgb(165, 168, 11);
+  color: rgb(0, 0, 0);
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 600px;
   text-align: left;
-  background: #fff;
+  background: rgb(136, 141, 140);
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
+  
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #35f804;
 }
 
 ul.skills {
   padding: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .skills li {
@@ -198,33 +199,49 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+    text-align: center;
   }
 
 }
 
 h3 {
-    color: grey;
+    color: black;
   letter-spacing: .5px;
 
 
 }
 .card-title {
-       text-align:center;
-       border: solid black 5px;
+       text-align: center;
+       border: solid goldenrod 5px;
        border-radius: 15px;
+       
+       
+       
 
 
 }
 
 .main-image {
-  border: solid 5px black;
-  border-radius: 50%;
+  border: solid 5px green;
+  border-radius: 100%;
 } 
+
+.experience {
+  text-align: left;
+  margin-left: 20px;
+}
+header {
+  text-align: left;
+  background: url('images/banner2.jpg') no-repeat top left ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
 
 h1 {
   background-color: #e2e2e2;
   padding: 5px;
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -246,5 +263,21 @@ margin-left: 20px;
 h3 {
 margin-left: 20px;
 
+}
+
+h4 {
+    margin-left: 20px;
+
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1in;
+}
+h1 {
+  text-align: center;
 
 }
